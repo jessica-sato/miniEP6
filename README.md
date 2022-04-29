@@ -16,4 +16,4 @@ Panorama e introducão sobre Docker e suas imagens.
 - [Caddy Image](https://hub.docker.com/_/caddy) 
 - [Dockerfile](https://docs.docker.com/engine/reference/builder/)
 - Material disponibilizado no notion.
-- [Docker installation] (https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
+- [Docker installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
