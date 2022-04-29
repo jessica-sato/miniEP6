@@ -25,6 +25,7 @@ docker container rm mypg
 docker container run --name mypg -p 80:80 -v ${PWD}/pages:/usr/src/pages -d my-caddy:2.5.0-alpine
 
 # Para ver se o programa executou, abrir firefox em localhost
+# Mudar paginas html localmente e conferir mudanças
 
 # Para parar o container
 docker container stop mypg
