@@ -8,7 +8,7 @@ Repositório referente ao sexto miniEP da disciplina MAC0218-Técnicas de Progra
 Panorama e introducão sobre Docker e suas imagens.
 
 ### Arquivos:
-- **Dockerfile:** arquivo da nova imagem. Para a primeira parte foi utilizado o comando COPY para ter os arquivos html para dentro do docker, já na segunda parte usamos VOLUME para que os arquivos fossem linkados para dentro do docker (mantendo assim versões atualizadas das páginas html). (A primeira parte foi comantada no commit mais recente).
+- **Dockerfile:** arquivo da nova imagem. 
 - **Caddyfile:** arquivo de configuraćão do Caddy copiado no docker.
 - **index.html e about.html:** páginas html para teste do caddy.
 - **history.txt:** guarda histtórico dos comandos docker utilizados
