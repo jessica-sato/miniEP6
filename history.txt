@@ -1,0 +1,21 @@
+# Parte 1:
+
+# Para criar imagem
+docker image build . -t my-caddy:2.5.0-alpine
+
+# Para rodar imagem
+docker container run --name mypg -p 80:80 -d my-caddy:2.5.0-alpine
+
+# Para ver imagem
+docker container ls
+
+# Para ver se o programa executou, abrir firefox em localhost
+
+# Para para o docker
+docker container stop mypg
+
+# Conferir se localhost ainda se consta as paginas criadas: nao conecta
+
+# Parte 2
+
+# Atualizacão do Dockerfile
